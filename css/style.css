@@ -317,7 +317,7 @@ footer .credits a {
     font-size: 62.5%;
   }
   
-  #menu {
+  #hamburger-menu {
     display: inline-block;
   }
   
@@ -388,7 +388,7 @@ footer .credits a {
 }
 
 /* mobile */
-@media (max-width: 450px) {
+@media (max-width: 459px) {
   html {
     font-size: 55%;
   }
