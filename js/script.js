@@ -2,13 +2,13 @@
 const navbarNav = document.querySelector('.navbar-nav');
 
 // ketika hamburger menu di klik
-document.querySelector('#menu').
+document.querySelector('#hamburger-menu').
 onclick = () => {
   navbarNav.classList.toggle('active');
 };
 
 // click di luar side bar untuk hilangkan menu
-const hamburger = document.querySelector('#menu');
+const hamburger = document.querySelector('#hamburger-menu');
 
 document.addEventListener("click", function (e) {
   if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
